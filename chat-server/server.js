@@ -29,6 +29,13 @@ app.get("/", function (request, response) {
 });
 
 
+// Read the most recent 10 messages
+app.get("/messages/latest", (request, response) => {
+  const latestMessages = messages.slice(-10);
+
+  response.json(latestMessages);
+});
+
 
 // (1st challenge -create a new message) and challenges 2-create a new messages with validation-:
 app.post("/messages", (request, response) => {
@@ -108,12 +115,6 @@ if (message) {
 
 
 
-// Read the most recent 10 messages
-app.get("/messages/latest", (request, response) => {
-  const latestMessages = messages.slice(-10);
-
-  response.json(latestMessages);
-});
 
 // level 5- challenge,
 app.put("/messages/:id", (request, response) => {
