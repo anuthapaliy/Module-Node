@@ -59,7 +59,7 @@ const lists = new Map();
 // add some fake data
 
 app.get("/lists", (req, res) => {
-  const listsArray = Array.from(lists.keys()); // Why is this like this? Try it out in your console.
+  const listsArray = Array.from(ists.keys()); // Why is this like this? Try it out in your console.
   res.send(listsArray);
 });
 ```

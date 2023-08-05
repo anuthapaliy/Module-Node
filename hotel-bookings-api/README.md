@@ -12,12 +12,12 @@ We also provide a basic React front-end to allow you to test some of the functio
 
 You should have completed at least Level 1-3 of the Chat Server challenge before attempting this challenge.
 
-## Level 1 Challenge - make the booking server
+## 
+1. Read aLevel 1 Challenge - make the booking server
 
 At this first level, your API must allow a client to:
 
-1. Create a new booking
-1. Read all bookings
+1. Create a new bookingll bookings
 1. Read one booking, specified by an ID
 1. Delete a booking, specified by an ID
 

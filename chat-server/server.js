@@ -44,6 +44,8 @@ app.post("/messages", (request, response) => {
       id: messages.length,
       from: from,
       text: text,
+      // level 4 challenge, add the current timestamp
+      timeSent: new Date(),
     };
 
     messages.push(newMessage);

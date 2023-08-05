@@ -10,7 +10,9 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "moment": "^2.29.4",
+    "validator": "^13.11.0"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/hello-express"
